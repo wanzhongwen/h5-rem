@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>h5-rem项目</title>
+    <link rel="stylesheet"  type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <script  src="js/rem.js"></script>
+    <script type="text/javascript">
+        new Rem({
+            desinWidth:750, //750这个值，根据设计师的psd宽度来修改，是多少就写多少，插件默认720
+            num:100         //100这个值，是1rem = 100px的比例 默认100比1的 可修改自己的比例 计算
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="touxiang">
+            <i class="iconfont icon-touxiang"></i>
+        </div>
+        <div class="header_name"><span>SunnyWan</span></div>
+    </div>
+    <div class="navBar">
+        <div class="nav-content clearfix">
+            <a href="" class="item order-item">
+                <i class="iconfont icon-dingdan"></i>
+                <span>我的订单</span>
+            </a>
+            <a href="" class="item shopcart-item">
+                <i class="iconfont icon-icozhuanhuan"></i>
+                <span>购物车</span>
+            </a>
+            <a href="" class="item money-item">
+                <i class="iconfont icon-yue"></i>
+                <span>余额</span>
+            </a>
+            <a href="" class="item search-item">
+                <i class="iconfont icon-yuyue"></i>
+                <span>查询</span>
+            </a>
+        </div>
+    </div>
+    <div class="nav-bottom">
+        <a href="#" class="nav-bottom-item clearfix">
+            <i class="iconfont icon-dizhi"></i>
+            <div class="icon-add">我的地址</div>
+        </a>
+        <a href="#" class="nav-bottom-item clearfix">
+            <i class="iconfont icon-iconset0142"></i>
+            <div class="icon-add">关于我们</div>
+        </a>
+        <a href="#" class="nav-bottom-item clearfix">
+            <i class="iconfont icon-kefu"></i>
+            <div class="icon-add">
+                客服电话
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>
